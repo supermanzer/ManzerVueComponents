@@ -36,3 +36,5 @@ These components are based on the Vuetify.js material design UI library.
      - `title_text`: The text rendered in the card title (defaults to 'Information')
      - `path`: File path in `content` directory to the article we wish to display (defaults to 'info')
      - `document`: The actual markdown document we want rendered in the dialog (_requred_)
+
+  2. **InfoMenu**: This is the same approach as the above InfoIconDialog but using a pop-over menu to display the information. This can be useful in a situation where a dialog is too interuptive, like providing info while a user navigates a form. In this case the `width` prop sets the min-width property of the menu.
