@@ -57,7 +57,7 @@ export default {
             info: {}
         }
     },
-    created() {
+    async created() {
         const info = await this.$content(this.path, this.document).fetch()
         this.info = info
         this.loading = false
